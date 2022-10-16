@@ -1,18 +1,17 @@
 #include <stdio.h>
-#include <unistd.h>
 /**
- * main - Entry point
- * Description: to print alphabet
- * Return: Always 0
- **/
+ * main - Entry path
+ * Return: 0 when successful
+ */
+
 int main(void)
 {
-	int ch;
+	char a_z;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
+	for (a_z = 97; a_z <= 122; a_z++)
 	{
-		putchar(ch);
+		putchar(a_z);
 	}
-	putchar(ch);
+	putchar('\n');
 	return (0);
 }
