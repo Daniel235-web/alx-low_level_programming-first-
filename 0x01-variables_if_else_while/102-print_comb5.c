@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Return: o when successful
+ * Return: 0 when successful
  */
 
 int main(void)
@@ -11,12 +11,12 @@ int main(void)
 
 	for (i = 0; i < 100; i++)
 	{
-		a = i / 10; /* doubles fnum */
+		a = i / 10; /* double fnum */
 		b = i % 10; /* single fnum */
 
-		for (j = 10; j < 100; j++)
+		for (j = 0; j < 100; j++)
 		{
-			a = i / 10; /* doubles snum */
+			c = j / 10; /* double snum */
 			d = j % 10; /* single snum */
 
 			if (a < c || (a == c && b < d))
@@ -39,3 +39,4 @@ int main(void)
 
 	return (0);
 }
+
