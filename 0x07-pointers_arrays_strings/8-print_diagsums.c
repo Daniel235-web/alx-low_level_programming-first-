@@ -28,4 +28,6 @@ void print_diagsums(int *a, int size)
 		i += size - 1;
 	}
 	printf("%d\n", diag_sum);
+
+	
 }
